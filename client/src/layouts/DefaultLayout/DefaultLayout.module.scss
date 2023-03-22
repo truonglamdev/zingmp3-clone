@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    margin-left: var(--sidebar-default-width);
+    width: 100%;
+    
+}
+
+.content {
+    padding: 0 var(--padding-section);
+    width: 100%;
+    height: 100vh;
+    // min-height: 200vh;
+    margin-top: var(--header-default-height);
+    overflow-y: scroll;
+}
+
+.content-scroll {
+    min-height: 200vh;
+}
+
+
+.portal-model {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: blueviolet;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-image {
+    margin-right:10px;
+    .image {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+
+.song-info {
+    max-width: 240px;
+    overflow: hidden;
+}

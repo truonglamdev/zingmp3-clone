@@ -1,0 +1,23 @@
+.wrapper {
+    width: 100%;
+    height: calc(100vh - var(--sidebar-default-height));
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 22;
+    background-color: var(--player-bg);
+    border-top: 1px solid var(--border-player);
+    
+    padding: 12px 20px;
+}
+
+.player-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-control__left {
+    
+
+}

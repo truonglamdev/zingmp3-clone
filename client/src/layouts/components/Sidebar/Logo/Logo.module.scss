@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100%;
+    height: var(--header-default-height);
+    margin: 0 25px 0 28px;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    a {
+        display: block;
+    }
+}
+
+.logo-img {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    background: var(--img-logo-mp3) 50% / contain no-repeat;
+}

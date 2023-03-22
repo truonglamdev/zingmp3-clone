@@ -1,0 +1,47 @@
+.menu-wrapper {
+    transform: translateX(16px);
+    border-radius: 9px;
+    width: 240px;
+    background-color: var(--layout-bg);
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    color: var(--white);
+
+    span {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--text-secondary);
+    }
+
+    .menu-item + .menu-item {
+        margin-bottom: 10px;
+    }
+
+    &:hover {
+        background-color: var(--alpha-bg);
+    }
+}
+
+.menu-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.menu-icon {
+    font-size: 1.9rem;
+}
+
+.menu-option {
+    padding: 10px 0;
+    font-size: 1.4rem;
+    width: 200px;
+    color: var(--text-secondary);
+}

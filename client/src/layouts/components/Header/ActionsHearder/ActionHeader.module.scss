@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: var(--text-primary);
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    margin-left: 8px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    &:hover {
+        opacity: 0.85;
+    }
+}
+
+//mene user login
+
+// .avatar-menu {
+//     width: 240px;
+// }
+
+// .avatar-menu-list {
+//     width: 100%;
+
+//     .avatar-menu-item {
+//         width: 100%;
+//         justify-content: flex-start;
+//     }
+// }

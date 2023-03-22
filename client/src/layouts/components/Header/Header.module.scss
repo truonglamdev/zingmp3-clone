@@ -1,0 +1,54 @@
+:root {
+    --padding-section: 59px;
+}
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: var(--header-default-height);
+    width: calc(100% - var(--sidebar-default-width));
+    padding: 0 var(--padding-section);
+    background-color: var(--layout-header-bg);
+    z-index: 10;
+}
+
+.inner {
+    width: 100%;
+    height: var(--search-default-height);
+    display: flex;
+    align-items: center;
+}
+
+.level-left {
+    display: flex;
+    align-items: center;
+    width: 662px;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+}
+
+.control-icon {
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-right: 2rem;
+    color: var(--text-primary);
+    opacity: 0.3;
+    user-select: none;
+}
+
+.level-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    height: var(--search-default-height);
+    margin-left: 18px;
+}
